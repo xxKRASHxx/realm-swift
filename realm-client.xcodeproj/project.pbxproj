@@ -7,21 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		511B451E1FACAF2100835665 /* MediaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511B451D1FACAF2100835665 /* MediaInfo.swift */; };
+		517C38521FAA03CD00AD080D /* MovieCompositionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C38511FAA03CD00AD080D /* MovieCompositionViewModel.swift */; };
+		517C38541FAA040C00AD080D /* MovieCompositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C38531FAA040C00AD080D /* MovieCompositionViewController.swift */; };
+		519B28D71FA0E26500234920 /* Bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B28D21FA0E26400234920 /* Bind.swift */; };
+		519B28D81FA0E26500234920 /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B28D31FA0E26400234920 /* Tuple.swift */; };
+		519B28D91FA0E26500234920 /* Weakify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B28D41FA0E26400234920 /* Weakify.swift */; };
+		519B28DA1FA0E26500234920 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B28D51FA0E26400234920 /* Optional.swift */; };
+		519B28DB1FA0E26500234920 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B28D61FA0E26500234920 /* Reducer.swift */; };
+		519B28E11FA0E40B00234920 /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B28E01FA0E40B00234920 /* MovieListViewModel.swift */; };
+		519B28E31FA0E45A00234920 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B28E21FA0E45A00234920 /* MovieListViewController.swift */; };
+		519B28E51FA1E11000234920 /* RemoteContentProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B28E41FA1E11000234920 /* RemoteContentProviding.swift */; };
+		519B28E71FA1E24000234920 /* RemoteContentContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B28E61FA1E24000234920 /* RemoteContentContainerViewController.swift */; };
+		519B28EA1FA1E49400234920 /* RemoteContentContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 519B28E91FA1E49400234920 /* RemoteContentContainerViewController.xib */; };
+		519B28EE1FA1E9FE00234920 /* ContextProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B28ED1FA1E9FE00234920 /* ContextProvider.swift */; };
+		519B28F01FA1F17800234920 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B28EF1FA1F17800234920 /* Coordinator.swift */; };
+		519B28F31FA1F1C600234920 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B28F21FA1F1C600234920 /* ApplicationCoordinator.swift */; };
+		519B28F51FA1F23900234920 /* MovieSelectionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519B28F41FA1F23900234920 /* MovieSelectionCoordinator.swift */; };
+		51A105D01FA8DCD1009AD952 /* MovieCompositionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A105CF1FA8DCD1009AD952 /* MovieCompositionCoordinator.swift */; };
+		51AA26081FA22EB600C79F49 /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA26071FA22EB600C79F49 /* ErrorViewController.swift */; };
 		51BF7FBB1F9E92D40048F70D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF7FBA1F9E92D40048F70D /* AppDelegate.swift */; };
-		51BF7FBD1F9E92D40048F70D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF7FBC1F9E92D40048F70D /* ViewController.swift */; };
-		51BF7FC01F9E92D40048F70D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BF7FBE1F9E92D40048F70D /* Main.storyboard */; };
+		51BF7FC01F9E92D40048F70D /* MovieSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BF7FBE1F9E92D40048F70D /* MovieSelection.storyboard */; };
 		51BF7FC21F9E92D40048F70D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51BF7FC11F9E92D40048F70D /* Assets.xcassets */; };
 		51BF7FC51F9E92D40048F70D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BF7FC31F9E92D40048F70D /* LaunchScreen.storyboard */; };
+		51BF7FCD1F9E95F10048F70D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BF7FCC1F9E95F10048F70D /* Movie.swift */; };
+		51C7DB3C1FA234CF00DDCFE2 /* ErrorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51C7DB3B1FA234CF00DDCFE2 /* ErrorViewController.xib */; };
+		51F398FC1FAC945F00757E14 /* UIImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F398FB1FAC945F00757E14 /* UIImagePickerController.swift */; };
+		7FF7FD2FAE2A885B31F9E95E /* Pods_realm_client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7946D1BF8FDA184D89D05107 /* Pods_realm_client.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		511B451D1FACAF2100835665 /* MediaInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaInfo.swift; sourceTree = "<group>"; };
+		517C38511FAA03CD00AD080D /* MovieCompositionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCompositionViewModel.swift; sourceTree = "<group>"; };
+		517C38531FAA040C00AD080D /* MovieCompositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCompositionViewController.swift; sourceTree = "<group>"; };
+		519B28D21FA0E26400234920 /* Bind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bind.swift; sourceTree = "<group>"; };
+		519B28D31FA0E26400234920 /* Tuple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tuple.swift; sourceTree = "<group>"; };
+		519B28D41FA0E26400234920 /* Weakify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weakify.swift; sourceTree = "<group>"; };
+		519B28D51FA0E26400234920 /* Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
+		519B28D61FA0E26500234920 /* Reducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		519B28E01FA0E40B00234920 /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
+		519B28E21FA0E45A00234920 /* MovieListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		519B28E41FA1E11000234920 /* RemoteContentProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteContentProviding.swift; sourceTree = "<group>"; };
+		519B28E61FA1E24000234920 /* RemoteContentContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteContentContainerViewController.swift; sourceTree = "<group>"; };
+		519B28E91FA1E49400234920 /* RemoteContentContainerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemoteContentContainerViewController.xib; sourceTree = "<group>"; };
+		519B28ED1FA1E9FE00234920 /* ContextProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextProvider.swift; sourceTree = "<group>"; };
+		519B28EF1FA1F17800234920 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		519B28F21FA1F1C600234920 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+		519B28F41FA1F23900234920 /* MovieSelectionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSelectionCoordinator.swift; sourceTree = "<group>"; };
+		51A105CF1FA8DCD1009AD952 /* MovieCompositionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCompositionCoordinator.swift; sourceTree = "<group>"; };
+		51AA26071FA22EB600C79F49 /* ErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
 		51BF7FB71F9E92D40048F70D /* realm-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "realm-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BF7FBA1F9E92D40048F70D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		51BF7FBC1F9E92D40048F70D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		51BF7FBF1F9E92D40048F70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51BF7FBF1F9E92D40048F70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MovieSelection.storyboard; sourceTree = "<group>"; };
 		51BF7FC11F9E92D40048F70D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51BF7FC41F9E92D40048F70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51BF7FC61F9E92D40048F70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BF7FCC1F9E95F10048F70D /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		51C7DB3B1FA234CF00DDCFE2 /* ErrorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorViewController.xib; sourceTree = "<group>"; };
+		51F398FB1FAC945F00757E14 /* UIImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePickerController.swift; sourceTree = "<group>"; };
+		7946D1BF8FDA184D89D05107 /* Pods_realm_client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_realm_client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B395D980A29CE2D787CF4EE7 /* Pods-realm-client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm-client.release.xcconfig"; path = "Pods/Target Support Files/Pods-realm-client/Pods-realm-client.release.xcconfig"; sourceTree = "<group>"; };
+		F12B33A95618A1CF17A076B9 /* Pods-realm-client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm-client.debug.xcconfig"; path = "Pods/Target Support Files/Pods-realm-client/Pods-realm-client.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +75,119 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FF7FD2FAE2A885B31F9E95E /* Pods_realm_client.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		058E5B4312A1DBB37B8D53C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7946D1BF8FDA184D89D05107 /* Pods_realm_client.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		098EB504962C744A90E09501 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F12B33A95618A1CF17A076B9 /* Pods-realm-client.debug.xcconfig */,
+				B395D980A29CE2D787CF4EE7 /* Pods-realm-client.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		519B28B81FA0E08700234920 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51BF7FCC1F9E95F10048F70D /* Movie.swift */,
+				511B451D1FACAF2100835665 /* MediaInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		519B28B91FA0E0AB00234920 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51BF7FBE1F9E92D40048F70D /* MovieSelection.storyboard */,
+				51BF7FC31F9E92D40048F70D /* LaunchScreen.storyboard */,
+				51BF7FC11F9E92D40048F70D /* Assets.xcassets */,
+				51BF7FC61F9E92D40048F70D /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		519B28C51FA0E21F00234920 /* Syntax shugar */ = {
+			isa = PBXGroup;
+			children = (
+				51F398FA1FAC944C00757E14 /* Reactive */,
+				519B28D21FA0E26400234920 /* Bind.swift */,
+				519B28D51FA0E26400234920 /* Optional.swift */,
+				519B28D61FA0E26500234920 /* Reducer.swift */,
+				519B28D31FA0E26400234920 /* Tuple.swift */,
+				519B28D41FA0E26400234920 /* Weakify.swift */,
+			);
+			path = "Syntax shugar";
+			sourceTree = "<group>";
+		};
+		519B28DF1FA0E3CE00234920 /* MovieSelection */ = {
+			isa = PBXGroup;
+			children = (
+				519B28ED1FA1E9FE00234920 /* ContextProvider.swift */,
+				519B28F41FA1F23900234920 /* MovieSelectionCoordinator.swift */,
+				519B28E01FA0E40B00234920 /* MovieListViewModel.swift */,
+				519B28E21FA0E45A00234920 /* MovieListViewController.swift */,
+			);
+			path = MovieSelection;
+			sourceTree = "<group>";
+		};
+		519B28E81FA1E25000234920 /* ContentProviding */ = {
+			isa = PBXGroup;
+			children = (
+				519B28E41FA1E11000234920 /* RemoteContentProviding.swift */,
+				519B28E61FA1E24000234920 /* RemoteContentContainerViewController.swift */,
+				519B28E91FA1E49400234920 /* RemoteContentContainerViewController.xib */,
+			);
+			path = ContentProviding;
+			sourceTree = "<group>";
+		};
+		519B28F11FA1F1A200234920 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				519B28EF1FA1F17800234920 /* Coordinator.swift */,
+				519B28F21FA1F1C600234920 /* ApplicationCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		51A105CE1FA8DC88009AD952 /* MovieComposition */ = {
+			isa = PBXGroup;
+			children = (
+				51A105CF1FA8DCD1009AD952 /* MovieCompositionCoordinator.swift */,
+				517C38511FAA03CD00AD080D /* MovieCompositionViewModel.swift */,
+				517C38531FAA040C00AD080D /* MovieCompositionViewController.swift */,
+			);
+			path = MovieComposition;
+			sourceTree = "<group>";
+		};
+		51AA26061FA22E9F00C79F49 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				51AA26071FA22EB600C79F49 /* ErrorViewController.swift */,
+				51C7DB3B1FA234CF00DDCFE2 /* ErrorViewController.xib */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
 		51BF7FAE1F9E92D40048F70D = {
 			isa = PBXGroup;
 			children = (
 				51BF7FB91F9E92D40048F70D /* realm-client */,
 				51BF7FB81F9E92D40048F70D /* Products */,
+				098EB504962C744A90E09501 /* Pods */,
+				058E5B4312A1DBB37B8D53C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +203,24 @@
 			isa = PBXGroup;
 			children = (
 				51BF7FBA1F9E92D40048F70D /* AppDelegate.swift */,
-				51BF7FBC1F9E92D40048F70D /* ViewController.swift */,
-				51BF7FBE1F9E92D40048F70D /* Main.storyboard */,
-				51BF7FC11F9E92D40048F70D /* Assets.xcassets */,
-				51BF7FC31F9E92D40048F70D /* LaunchScreen.storyboard */,
-				51BF7FC61F9E92D40048F70D /* Info.plist */,
+				519B28F11FA1F1A200234920 /* Coordinator */,
+				519B28C51FA0E21F00234920 /* Syntax shugar */,
+				519B28B91FA0E0AB00234920 /* Resources */,
+				519B28B81FA0E08700234920 /* Model */,
+				519B28DF1FA0E3CE00234920 /* MovieSelection */,
+				51A105CE1FA8DC88009AD952 /* MovieComposition */,
+				519B28E81FA1E25000234920 /* ContentProviding */,
+				51AA26061FA22E9F00C79F49 /* Error */,
 			);
 			path = "realm-client";
+			sourceTree = "<group>";
+		};
+		51F398FA1FAC944C00757E14 /* Reactive */ = {
+			isa = PBXGroup;
+			children = (
+				51F398FB1FAC945F00757E14 /* UIImagePickerController.swift */,
+			);
+			path = Reactive;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51BF7FC91F9E92D40048F70D /* Build configuration list for PBXNativeTarget "realm-client" */;
 			buildPhases = (
+				8DA30861B3EB8D278E6577B9 /* [CP] Check Pods Manifest.lock */,
 				51BF7FB31F9E92D40048F70D /* Sources */,
 				51BF7FB41F9E92D40048F70D /* Frameworks */,
 				51BF7FB51F9E92D40048F70D /* Resources */,
+				F65355DB865FE5D297E0DAE4 /* [CP] Embed Pods Frameworks */,
+				6D5CD9BF5353A49F4CB76515 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,31 +287,100 @@
 			files = (
 				51BF7FC51F9E92D40048F70D /* LaunchScreen.storyboard in Resources */,
 				51BF7FC21F9E92D40048F70D /* Assets.xcassets in Resources */,
-				51BF7FC01F9E92D40048F70D /* Main.storyboard in Resources */,
+				519B28EA1FA1E49400234920 /* RemoteContentContainerViewController.xib in Resources */,
+				51C7DB3C1FA234CF00DDCFE2 /* ErrorViewController.xib in Resources */,
+				51BF7FC01F9E92D40048F70D /* MovieSelection.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D5CD9BF5353A49F4CB76515 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-realm-client/Pods-realm-client-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DA30861B3EB8D278E6577B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F65355DB865FE5D297E0DAE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-realm-client/Pods-realm-client-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		51BF7FB31F9E92D40048F70D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51BF7FBD1F9E92D40048F70D /* ViewController.swift in Sources */,
+				519B28EE1FA1E9FE00234920 /* ContextProvider.swift in Sources */,
+				51BF7FCD1F9E95F10048F70D /* Movie.swift in Sources */,
+				519B28F01FA1F17800234920 /* Coordinator.swift in Sources */,
+				519B28E71FA1E24000234920 /* RemoteContentContainerViewController.swift in Sources */,
+				519B28F51FA1F23900234920 /* MovieSelectionCoordinator.swift in Sources */,
+				511B451E1FACAF2100835665 /* MediaInfo.swift in Sources */,
+				51A105D01FA8DCD1009AD952 /* MovieCompositionCoordinator.swift in Sources */,
+				517C38521FAA03CD00AD080D /* MovieCompositionViewModel.swift in Sources */,
+				519B28D71FA0E26500234920 /* Bind.swift in Sources */,
+				51F398FC1FAC945F00757E14 /* UIImagePickerController.swift in Sources */,
+				519B28D81FA0E26500234920 /* Tuple.swift in Sources */,
+				519B28DB1FA0E26500234920 /* Reducer.swift in Sources */,
+				519B28E51FA1E11000234920 /* RemoteContentProviding.swift in Sources */,
 				51BF7FBB1F9E92D40048F70D /* AppDelegate.swift in Sources */,
+				519B28D91FA0E26500234920 /* Weakify.swift in Sources */,
+				519B28E31FA0E45A00234920 /* MovieListViewController.swift in Sources */,
+				519B28DA1FA0E26500234920 /* Optional.swift in Sources */,
+				51AA26081FA22EB600C79F49 /* ErrorViewController.swift in Sources */,
+				517C38541FAA040C00AD080D /* MovieCompositionViewController.swift in Sources */,
+				519B28E11FA0E40B00234920 /* MovieListViewModel.swift in Sources */,
+				519B28F31FA1F1C600234920 /* ApplicationCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		51BF7FBE1F9E92D40048F70D /* Main.storyboard */ = {
+		51BF7FBE1F9E92D40048F70D /* MovieSelection.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				51BF7FBF1F9E92D40048F70D /* Base */,
 			);
-			name = Main.storyboard;
+			name = MovieSelection.storyboard;
 			sourceTree = "<group>";
 		};
 		51BF7FC31F9E92D40048F70D /* LaunchScreen.storyboard */ = {
@@ -272,11 +503,12 @@
 		};
 		51BF7FCA1F9E92D40048F70D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F12B33A95618A1CF17A076B9 /* Pods-realm-client.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 662KN2BST6;
-				INFOPLIST_FILE = "realm-client/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/realm-client/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sigma-software.realm-client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +519,12 @@
 		};
 		51BF7FCB1F9E92D40048F70D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B395D980A29CE2D787CF4EE7 /* Pods-realm-client.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 662KN2BST6;
-				INFOPLIST_FILE = "realm-client/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/realm-client/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sigma-software.realm-client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
